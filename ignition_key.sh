@@ -52,9 +52,6 @@ sudo apt-get install -y taskwarrior
 BLUE "Installing Python2..."
 sudo apt install -y python2
 
-BLUE "Installing pip..."
-sudo apt-get install -y python-pip
-
 BLUE "Installing pip3..."
 sudo apt-get install -y python3-pip
 
@@ -69,6 +66,10 @@ sudo apt-get install -y nmap
 
 BLUE "Installing curl..."
 sudo apt-get install -y curl
+
+BLUE "Installing Pip using downgrade"
+curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
+sudo python2 get-pip.py
 
 BLUE "Installing exiftool..."
 sudo apt-get install -y exiftool
