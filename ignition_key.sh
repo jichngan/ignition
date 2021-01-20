@@ -49,6 +49,9 @@ fi
 BLUE "Installing task..."
 sudo apt-get install -y taskwarrior
 
+BLUE "Installing Python2..."
+sudo apt install python2
+
 BLUE "Installing pip..."
 sudo apt-get install -y python-pip
 
