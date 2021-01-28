@@ -209,12 +209,9 @@ sudo apt install -y tcpflow
 BLUE "Installing Python scapy..."
 sudo pip install scapy
 
-BLUE "Installing the thing that 7z2john.pl needs..."
-sudo apt install libcompress-raw-lzma-perl 
-
-BLUE "Installing dos2unix..."
-sudo apt install libcompress-raw-lzma-perl
-
 BLUE "Git Cloning DirBuster Wordlist..."
 git clone "https://github.com/daviddias/node-dirbuster.git"
+
+BLUE "Installing Vim..."
+sudo apt install -y vim
 
