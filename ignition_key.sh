@@ -69,7 +69,11 @@ sudo apt-get install -y curl
 
 BLUE "Installing Pip using downgrade"
 curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
-sudo python2 get-pip.py
+sudo python3 get-pip.py
+
+BLUE "Installing Java and Javac..."
+sudo apt install -y default-jre
+sudo apt install -y default-jdk
 
 BLUE "Installing exiftool..."
 sudo apt-get install -y exiftool
@@ -156,12 +160,6 @@ BLUE "Installing Hopper..."
 wget "https://d2ap6ypl1xbe4k.cloudfront.net/Hopper-v4-4.3.14-Linux.deb"
 dpkg -i Hopper-v4-4.3.14-Linux.deb
 rm Hopper-v4-4.3.14-Linux.deb
-
-
-BLUE "Installing Oracle Java 8..."
-echo "" | sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install -y oracle-java8-installer
 
 BLUE "Downloading stegsolve.jar..."
 wget "http://www.caesum.com/handbook/Stegsolve.jar" -O "stegsolve.jar"
