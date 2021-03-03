@@ -36,8 +36,8 @@ sudo apt install -y git
 BLUE "Installing task..."
 sudo apt-get install -y taskwarrior
 
-#BLUE "Installing Python2..."
-#sudo apt install -y python2
+BLUE "Installing Python2..."
+sudo apt install -y python2
 
 BLUE "Installing pip3..."
 sudo apt-get install -y python3-pip
@@ -81,16 +81,16 @@ BLUE "Installing idle..."
 sudo apt install -y idle
 
 BLUE "Installing Python flask..."
-sudo pip install flask
+sudo pip3 install flask
 
 BLUE "Installing Python flask-login..."
-sudo pip install flask-login
+sudo pip3 install flask-login
 
 BLUE "Installing Python colorama..."
-sudo pip install colorama
+sudo pip3 install colorama
 
 BLUE "Installing Python passlib..."
-sudo pip install passlib
+sudo pip3 install passlib
 
 BLUE "Installing Binwalk..."
 sudo apt install -y binwalk
@@ -108,7 +108,7 @@ BLUE "Installing hexedit..."
 sudo apt install -y hexedit	
 
 BLUE "Installing Python pwntools..."
-sudo pip install pwntools
+sudo pip3 install pwntools
 
 BLUE "Installing Go..."
 sudo apt install -y golang-go
@@ -160,16 +160,16 @@ BLUE "Installing ffmpeg..."
 sudo apt install -y ffmpeg
 
 BLUE "Installing Python library netifaces..."
-sudo pip install netifaces
+sudo pip3 install netifaces
 
 BLUE "Installing Python library iptools..."
-sudo pip install iptools
+sudo pip3 install iptools
 
 BLUE "Installing Python library OpenSSL..."
-sudo pip install pyopenssl
+sudo pip3 install pyopenssl
 
 BLUE "Installing Python library pydispatch..."
-sudo pip install pydispatch
+sudo pip3 install pydispatch
 
 BLUE "Installing GIMP..."
 sudo apt install -y gimp
@@ -187,7 +187,7 @@ BLUE "Installing tcpflow..."
 sudo apt install -y tcpflow
 
 BLUE "Installing Python scapy..."
-sudo pip install scapy
+sudo pip3 install scapy
 
 BLUE "Git Cloning DirBuster Wordlist..."
 git clone "https://github.com/daviddias/node-dirbuster.git"
